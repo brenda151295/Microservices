@@ -7,10 +7,11 @@ Herramientas
 3. Flask
 4. Postgress
 5. Envoy
+6. Kubernets
 
 Step 0: Minikube
 ================
-Primero necesitamos empezar Minikude
+Primero necesitamos empezar Minikube
 
 ```minikube start```
 
@@ -22,7 +23,7 @@ Luego:
 
 ```eval $(minikube docker-env)```
 
-Para preparar todo para Minikude:
+Para preparar todo para Minikube:
 
 ```
 bash prep.sh -
@@ -78,7 +79,7 @@ Y si todo va bien recibiremos lo siguiente:
   "hostname": "usersvc-1941676296-zlrt2",
   "ok": true,
   "resolvedname": "172.17.0.10",
-  "uuid": "44FD5687B15B4AF78753E33E6A2B033B" 
+  "uuid": "44FD5687B15B4AF78753E33E6A2B033B"
 }
 ```
 
