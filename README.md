@@ -53,11 +53,11 @@ curl $(minikube service --url edge-envoy)/user/health
 y nos devolverá:
 
 ```
-{ 
+{
   "hostname": "usersvc-1941676296-zlrt2",
   "msg": "user health check OK",
   "ok": true,
-  "resolvedname": "172.17.0.10" 
+  "resolvedname": "172.17.0.10"
 }
 ```
 
